@@ -83,6 +83,7 @@ class TaskController extends Controller
         );
 
         $task = $task->fill($request->all());
+        $task->save();
         return response($task);
     }
 
