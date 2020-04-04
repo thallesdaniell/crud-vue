@@ -7,7 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    protected $hidden =[
+    protected $fillable = [
+        'name',
+        'description'
+    ];
+
+    protected $hidden = [
         'updated_at'
     ];
 
