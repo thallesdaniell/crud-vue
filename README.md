@@ -48,7 +48,7 @@ $ git clone git@github.com:thallesdaniell/desafio-sell2brazil.git
 $ docker-compose up -d
 ```
 
-##### 3. Acessar o shell do container `demo_app` e excute:
+##### 3. Acessar o shell do container `demo_app` e execute:
     
 ```
 $ docker exec -it demo_app php artisan migrate --seed
