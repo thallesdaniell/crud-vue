@@ -3,6 +3,8 @@ services:
 
   #PHP Service
   demo_app:
+    depends_on:
+      - demo_db
     build:
       context: .
       dockerfile: Dockerfile
@@ -45,11 +47,11 @@ services:
     tty: true
     ports:
       - "3307:3306"
-#    env_file:
-#      - .env
+    env_file:
+      - .env
     environment:
-      MYSQL_DATABASE: app_database
-      MYSQL_ROOT_PASSWORD: strong_root_password
+      MYSQL_DATABASE: $DB_DATABASE
+      MYSQL_ROOT_PASSWORD: $DB_PASSWORD
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:

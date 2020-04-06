@@ -49,7 +49,6 @@ RUN cp .env.example .env
 RUN composer install
 
 RUN php artisan key:generate
-RUN php artisan migrate --seed
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
