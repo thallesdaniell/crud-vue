@@ -1,16 +1,16 @@
 
 ## Documentação
 
-* [Descrição](#descrio)
-* [Configuração](#configurao-container)
-* [Execução](#execuo)
-    - [Clonar respositório](#1-clone-o-repositrio-usando-o-comando)
+* [Descrição](#descrição)
+* [Configuração](#configuração)
+* [Execução](#execução)
+    - [Clonar respositório](#1-clone-o-repositório-usando-o-comando)
     - [Rodar container](#2-rode-seu-container)
     - [Acessar Shell](#3-acessar-o-shell-do-container-demo_app-e-excute)
 * [Uso](#uso)
     - [Acessar aplicação](#1-abra-no-navegador)
     - [Acessar Mysql](#2-acessar-o-banco-de-dados-dentro-do-container-mysql-caso-precise)
-    - [Comandos básicos](#3-comandos-bsicos-para-utilizar-o-banco-de-dados)
+    - [Comandos básicos](#3-comandos-básicos-para-utilizar-o-banco-de-dados)
 
 
 
