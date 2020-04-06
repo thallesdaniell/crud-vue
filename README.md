@@ -7,13 +7,6 @@ __Objetivo__: Desenvolver uma aplicação usando Vue/Laravel/Dokcer, o código d
 Prazo de Envio: 06/abr/2020.
 
 
-Executar a aplicação
---------------------
-Clonar projeto
-```
-$ git clone git@github.com:thallesdaniell/desafio-sell2brazil.git
-```
-
 Configuração Container Nginx
 ----------------------------
 2. Volume (Obs: verificar se na configuração do docker -> drivers compartilhados, as unidades c: e/ou d: estão habilitadas)
